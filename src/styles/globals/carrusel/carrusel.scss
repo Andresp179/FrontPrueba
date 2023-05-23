@@ -1,0 +1,19 @@
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+    background: var(--color-blue-dark);
+    color: #ffffff;
+}
+
+.p-link:focus {    
+    box-shadow: 0 0 0 0.2rem var(--color-blue-light);
+}
+
+.p-carousel .p-carousel-content .p-carousel-prev:focus, 
+.p-carousel .p-carousel-content .p-carousel-next:focus {    
+    box-shadow: none;
+}
+
+.p-carousel .p-carousel-content .p-carousel-prev:enabled:hover, 
+.p-carousel .p-carousel-content .p-carousel-next:enabled:hover {    
+   color: var(--color-blue-light);
+}
+

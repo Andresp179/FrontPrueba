@@ -1,0 +1,19 @@
+.btn-login {
+    box-shadow: 0 1.5px 4px 0 rgba(20, 157, 183, 0.45) !important;
+    border-radius: 15px !important;
+    background: var(--color-red) !important;
+    color: #f1f1f1 !important;
+    border: 0px !important;
+}
+.btn-login2 {
+    box-shadow: 0 1.5px 4px 0 rgba(20, 157, 183, 0.45) !important;
+    border-radius: 15px !important;
+    background: var(--color-red-text-info) !important;
+    color: #f1f1f1 !important;
+    border: 0px !important;
+}
+
+.btn-login:hover {
+    background-image: var(--color-red-text-info) !important;
+}
+  

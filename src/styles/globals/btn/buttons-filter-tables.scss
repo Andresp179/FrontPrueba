@@ -1,0 +1,56 @@
+.btn-light-dark-movimientos {
+    box-shadow: 0 3.5px 4px 0 var(--color-border);
+    border-radius: 15px;
+    background-color: var(--color-blue-light);
+    padding: 0.3rem 0.8rem;
+    border: 0px;
+    outline: 0px !important;
+    width: 45%;
+  }
+  .btn-light-dark-movimientos-active {
+    box-shadow: 0 3.5px 4px 0 var(--color-border);
+    border-radius: 15px;
+    background-color: var(--color-blue-dark);
+    padding: 0.3rem 0.8rem;
+    border: 0px;
+    outline: 0px !important;
+    width: 45%;
+  }
+  .btn-light-red-loteriavirtual {
+    box-shadow: 0 3.5px 4px 0 var(--color-border);
+    border-radius: 15px;
+    background-color: var(--color-red-loreriavirtual);
+    padding: 0.3rem 0.8rem;
+    border: 0px;
+    outline: 0px !important;
+    width: 45%;
+  }
+  .btn-light-red-loteriavirtual-active {
+    box-shadow: 0 3.5px 4px 0 var(--color-border);
+    border-radius: 15px;
+    background-color: var(--color-red-text-info);
+    padding: 0.3rem 0.8rem;
+    border: 0px;
+    outline: 0px !important;
+    width: 45%;
+  }
+  .btn-light-dark-ver-filtro {
+    border-radius: 15px;
+    padding: .30rem .8rem;
+    border: 0px;
+    outline: 0px !important;
+    background: #0BC9EC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 8px #149DB773;
+    opacity: 1;
+  }
+  
+
+  .btn-less-movimientos {
+    box-shadow: 0 3.5px 4px 0 var(--color-border);
+    border-radius: 15px;
+    width: 45%;
+    background-color: var(--color-white);
+    padding: 0.3rem 0.8rem;
+    border: 0px;
+    outline: 0px !important;
+  }

@@ -1,0 +1,216 @@
+/* style para p-table */
+.textCenterTd{
+  text-align: center !important;
+}
+.p-datatable-thead{
+    margin-bottom: 15px !important;
+}
+
+.p-table table {
+  table-layout: auto !important;
+}
+
+.tbl-app .p-datatable-thead>tr>th {
+  border: 0px !important;
+  background-color: var(--color-white) !important;
+  color: var(--color-black-light) !important;
+  text-align: left ;
+  font-weight: 600!important;
+  font-size: 12px !important;
+  padding: 12px 15px !important;
+}
+
+.tbl-app .p-datatable-tbody>tr>td {
+  border: 0px !important;
+  padding: 10px !important;
+  padding-left: 12px !important;
+  font-size: 12px !important;
+  color: var(--color-black-light);
+  font-weight: 500!important;
+}
+
+.p-table tr:hover td {
+  background-color: #aeb2ca2f !important;
+}
+
+.p-datatable-tbody > tr:hover {
+    background-color: #aeb2ca2f !important;
+}
+
+.tbl-app table {
+  border-collapse: separate !important;
+  border-spacing: 0 5px !important;
+}
+
+.p-table .p-datatable-tbody>tr {
+  color: var(--color-black-light) !important;
+  font-size: 16px !important;
+}
+.p-table .p-datatable-tbody > tr > td  + .text-succes-span > span {
+  background-color: var(--color-green-text-success) !important;
+  padding: 5px 10px !important;
+  border-radius: 10px;
+  color: var(--color-white) !important;
+}
+
+.p-table .p-datatable-tbody > tr > td  + .text-fail-span  > span {
+  background-color: var(--color-red-text-info-fail);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: var(--color-white);
+}
+.p-table .p-datatable-tbody > tr > td  + .text-pending-span  > span {
+  background-color: var(--color-yellow2);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: var(--color-white);
+}
+.p-table .p-datatable-tbody > tr > td  + .text-expired-span  > span {
+  background-color: var(--color-blue-dark);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: var(--color-white);
+}
+
+
+/* style paginador table */
+
+.tbl-app .p-paginator {
+  background-color: var(--color-white) !important;
+  border: 0px;
+}
+
+.tbl-app .p-paginator .p-dropdown-trigger {
+  background-color: var(--color-white) !important;
+}
+
+.tbl-app .p-paginator .p-dropdown .p-dropdown-label {
+  background-color: var(--color-white) !important;
+  color: var(--color-black-light) !important;
+}
+
+.tbl-app .p-paginator .p-paginator-current {
+  color: var(--color-black-light) !important;
+
+}
+
+.tbl-app .p-paginator .p-dropdown {
+  box-shadow: 0 0 0 0.2em var(--color-white) !important;
+}
+
+.p-table .p-datatable-tbody .p-highlight {
+  background-color: var(--color-red-text-info) !important;
+}
+
+.p-table .p-datatable-tfoot > tr > td {
+    padding: 0.571em 0.857em !important;
+    border: none !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.04rem;
+    color: var(--color-black-light) !important;
+    background: var(--color-white) !important;
+    font-size: var(--font-size-sm) !important;
+}
+
+.tbl-app .p-paginator {
+    background-color: #fff !important;
+    border: 0px;
+}
+
+.p-paginator .p-dropdown .p-dropdown-label {
+    background-color: #fff !important;
+}
+
+.p-paginator .p-dropdown-trigger {
+    background-color: #fff !important;
+}
+
+.p-paginator .p-dropdown {
+    height: 2.5em !important;
+}
+
+.p-dropdown .p-dropdown-label{
+  border-radius: 4px !important;
+}
+
+.bg-clr .p-inputtext {
+    background-color: #f8f9fa !important
+}
+
+.bg-clr .p-dropdown-trigger {
+    background-color: #f8f9fa !important
+}
+
+
+
+  /* circulo redondo paginador */
+
+.p-paginator-page.p-highlight {
+    background-color: var(--color-paginator-number-actually) !important;
+}
+
+.p-dialog-titlebar {
+    font-weight: 700!important;
+    padding: .5em!important;
+    background-color: #2076BD !important;
+    border-radius: 10px 10px 0px 0px !important;
+    color: white !important;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page {
+    border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -webkit-border-radius: 50% !important   ;
+}
+
+.p-paginator-first,.p-paginator-prev, .p-paginator-next,.p-paginator-last {
+    color: var(--color-blue-dark-title-dashboard) !important;
+}
+
+
+
+  /* Para una visualizacion correcta en el Shell */
+
+.p-table table {
+    table-layout: auto !important;
+}
+
+.tblhshort .p-datatable-thead>tr>th {
+    padding: 0.1em !important;
+    font-size: 15px !important;
+}
+
+/* header de los p-table */
+
+.p-table-caption {
+    background-color: #607a8c !important;
+    color: white !important;
+}
+
+#tbldoc .p-datatable-tbody>tr>td {
+    padding: 0.371em 0.857em !important;
+}
+
+.tbltitle .p-datatable-thead>tr>th {
+    font-size: 15px !important;
+}
+
+.tblshort .p-datatable-tbody>tr>td {
+    padding: 0.480em 0.857em !important;
+}
+
+.tblvshort .p-datatable-tbody>tr>td {
+    padding: 0.430em 0.857em !important;
+}
+
+#radioButtonTables .p-highlight{
+  color: var(--color-white) !important;
+  background: var(--color-orange-dark) !important;
+  border: var(--color-red) !important;
+}
+
+#radioButtonTables .p-highlight:focus{
+  color: var(--color-white) !important;
+  background: var(--color-orange-dark) !important;
+  border: var(--color-red) !important;
+}

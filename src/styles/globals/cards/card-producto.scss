@@ -1,0 +1,88 @@
+.card-derivado-producto{
+    background-color: white;
+    width: 95%;
+    height: 239px;
+    border: 1px solid  var(--color-border);
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px var(--color-border);
+    opacity: 1;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.card-derivado-producto .card-derivado-producto_circle{
+    height: 77%;
+    position: initial;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.card-derivado-producto .card-derivado-producto_img{
+    width: 210px;
+    height: 210px;
+    position: relative;
+    top: -45px;
+}
+
+.card-derivado-producto .card-derivado-producto_img{
+    border-radius: 150px;
+    border: 1px solid  var(--color-border);
+    background-color: white;
+}
+.card-derivado-producto .card-derivado-producto_img img{
+    width: inherit;
+    height: inherit;
+    border-radius: 150px;
+    border: 1px solid  var(--color-border);
+    background-color: white;
+}
+
+
+.card-derivado-producto .card-derivado-producto_footer{
+    height: 23%;
+    width: 88%;
+    background-color: var(--color-orange-dark);
+    color: var(--color-white);
+    padding: 10px;
+    -moz-border-radius: 36%;
+    -moz-border-radius: 0 100% 0 0;
+    -webkit-border-radius: 0 100% 0 0;
+    border-radius: 0 100% 0 0;
+    border-bottom-left-radius: 15px;
+}
+
+.card-derivado-producto .card-derivado-producto_footer p{
+    font-size: var(--font-size-xl);
+    text-align: start;
+    letter-spacing: 0px;
+    font-weight: 600;
+
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .card-derivado-producto{
+        width: 98%;
+        height: 180px;
+    }
+
+    .card-derivado-producto .card-derivado-producto_circle{
+        height: 70%;
+    }
+
+    .card-derivado-producto .card-derivado-producto_img{
+        width: 160px;
+        height: 160px;
+        top: -35px;
+    }
+    
+    .card-derivado-producto .card-derivado-producto_footer{
+        height: 30%;
+        width: 88%;
+    }
+    .card-derivado-producto .card-derivado-producto_footer p{
+        margin: 0px 5px;
+        font-size: var(--font-size-lg);
+    }
+    
+}

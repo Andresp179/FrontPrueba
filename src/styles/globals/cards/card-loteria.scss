@@ -1,0 +1,71 @@
+.contenido-loteria-dia{
+    box-shadow: 0px 3px 6px #004C8B21;
+    border-radius: 17px;
+    opacity: 1;
+    display: inline-flex;
+    padding: 5px;
+  }
+  
+  .contenido-loteria-dia .imagen-loteria-dia{
+    width: 70px;
+    height: 70px;
+    border-radius:160px;
+    border: 1px solid #c6cfc1;
+  }
+  
+  .contenido-loteria-dia .texto-loteria-dia .texto-loteria-dia-p{
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 24px/29px Roboto;
+    letter-spacing: 0px;
+    /* color: #FFFFFF; */
+    opacity: 1;
+  }
+  .contenido-loteria-dia .texto-loteria-dia .texto-loteria-dia-span{
+    text-align: left;
+    font: normal normal normal 18px/22px Roboto;
+    letter-spacing: 0px;
+    /* color: #F8F8F8; */
+    opacity: 1;
+  }
+  
+  .contenido-loteria-dia-sm{
+    box-shadow: 0px 3px 6px #004C8B21;
+    border-radius: 17px;
+    opacity: 1;
+    display: inline-flex;
+    padding: 5px;
+  }
+  
+  .contenido-loteria-dia-sm .imagen-loteria-dia{
+    width: 60px;
+    height: 60px;
+    border-radius: 160px;
+    border: 1px solid #c6cfc1;
+  }
+  
+  .contenido-loteria-dia-sm .texto-loteria-dia .texto-loteria-dia-p{
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 14px/18px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  .contenido-loteria-dia-sm .texto-loteria-dia .texto-loteria-dia-span{
+    text-align: left;
+    font: normal normal normal 14px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  
+  
+  .despinta{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    cursor: pointer;
+  }
+
+  .pinta{
+    background: var(--color-orange) 0% 0% no-repeat padding-box;
+    color: #fff;
+    cursor: pointer;
+  }

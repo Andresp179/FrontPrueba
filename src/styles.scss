@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('styles/globals/variables.scss');
+@import url('styles/defaults/default-styles.scss');
+@import url('styles/defaults/icons-library.scss');
+@import url('styles/globals/cards/card-dominio.scss');
+@import url('styles/globals/cards/card-producto.scss');
+@import url('styles/globals/cards/card-loteria.scss');
+@import url('styles/globals/calendars/calendar-select.scss');
+@import url('styles/globals/btn/buttons.scss');
+@import url('styles/globals/btn/button-login.scss');
+@import url('styles/globals/alert/messages.scss');
+@import url('styles/globals/tables/tables-filters.scss');
+@import url('styles/globals/tables/table-loteria.scss');
+@import url('styles/globals/btn/buttons-filter-tables.scss');
+@import url('styles/globals/dialogs/dialog.scss');
+@import url('styles/globals/carrusel/carrusel.scss');
+@import url('../src/assets/layout/iconmoon/style.css');

@@ -1,0 +1,212 @@
+/* Cambios para evitar conflictos con themes.css */
+.p-dialog .p-dialog-header .p-dialog-title, .pi {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon {
+    width: auto;
+    height: auto;
+}
+
+/* Cambios de default-styles.css */
+.p-dialog .p-dialog-content .barra {
+    width: 100%;
+}
+
+/*original*/
+/*DIALOG APUESTAS*/
+.p-dialog-mask>.p-dialog .p-dialog-header .p-dialog-title,
+.dialog-confirm>.p-dialog-mask>.p-dialog .p-dialog-header .p-dialog-title,
+.dialog-apuesta>.p-dialog-mask>.p-dialog .p-dialog-header .p-dialog-title {
+    margin: 0 !important;
+    float: none !important;
+    color: #00458d !important;
+}
+
+.p-dialog .p-dialog-header, .dialog-apuesta>.p-dialog-mask>.p-dialog .p-dialog-header {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    padding: 1em 1.5em !important;
+    background-color: var(--color-white) !important;
+    border-radius: 20px 20px 0px 0px !important;
+    color: var(--color-blue-dark) !important;
+    border: none !important;
+    letter-spacing: 1px !important;
+    border-right: 1px solid var(--color-border) !important;
+    border-left: 1px solid var(--color-border) !important;
+    border-top: 1px solid var(--color-border) !important;
+}
+
+.p-dialog .p-dialog-content {
+    background-color: #ffffff !important;
+    color: #333333 !important;
+    border: 1px solid #c8c8c8 !important;
+    padding: 0.5em 1em 1.5em 1em !important;
+}
+
+.p-dialog .p-dialog-content {
+    background-color: var(--color-white) !important;
+    color: var(--color-black-light) !important;
+    padding: 0 1em !important;
+    border: none !important;
+    border-right: 1px solid var(--color-border) !important;
+    border-left: 1px solid var(--color-border) !important;
+    border-bottom: 1px solid var(--color-border) !important;
+    /* border-radius: 0px 0px 20px 20px  !important; */
+}
+
+.p-dialog {
+    border-radius: 20px !important;
+    border: none !important;
+}
+
+.contenido-apuesta {
+    background: var(--color-background) !important;
+    padding: 10px 0px !important;
+    border-radius: 9px !important;
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon {
+    color: var(--color-blue-dark) !important;
+    border: 0 none !important;
+    padding: 0 !important;
+    margin-left: 0.5em !important;
+    transition: color 0.2s, background-color 0.2s, box-shadow 0.2s !important;
+}
+
+.p-dialog .p-dialog-header .p-dialog-title {
+    margin: 0 !important;
+    float: none !important;
+}
+
+/*DIALOG APUESTAS*/
+
+.dialog-apuesta>.p-dialog-mask>.p-dialog .p-dialog-content {
+    background-color: #ffffff !important;
+    color: #333333 !important;
+    border: 1px solid #c8c8c8 !important;
+    padding: 0.5em 1em 1.5em 1em !important;
+}
+
+.dialog-apuesta>.p-dialog-mask>.p-dialog .p-dialog-content {
+    background-color: var(--color-white) !important;
+    color: var(--color-black-light) !important;
+    padding: 0 1em !important;
+    border: none !important;
+    border-right: 1px solid var(--color-border) !important;
+    border-left: 1px solid var(--color-border) !important;
+    border-bottom: 1px solid var(--color-border) !important;
+    border-radius: 0px 0px 20px 20px !important;
+}
+
+.dialog-apuesta>.p-dialog-mask>.p-dialog {
+    border-radius: 20px !important;
+}
+
+.contenido-apuesta {
+    background: var(--color-background) !important;
+    padding: 10px 0px !important;
+    border-radius: 9px !important;
+}
+
+.dialog-apuesta>.p-dialog-mask>.p-dialog .p-dialog-header .p-dialog-header-icon {
+    color: var(--color-blue-dark) !important;
+    border: 0 none !important;
+    padding: 0 !important;
+    margin-left: 0.5em !important;
+    transition: color 0.2s, background-color 0.2s, box-shadow 0.2s !important;
+}
+
+.dialog-confirm>.p-dialog-mask>.p-dialog .p-dialog-header {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    padding: 1em 1.5em !important;
+    background-color: var(--color-white) !important;
+    border-radius: 20px 20px 0px 0px !important;
+    color: var(--color-blue-dark) !important;
+    border: none !important;
+    letter-spacing: 1px !important;
+    border-right: 1px solid var(--color-border) !important;
+    border-left: 1px solid var(--color-border) !important;
+    border-top: 1px solid var(--color-border) !important;
+}
+
+
+/*DIALOG ACEPTAR*/
+
+.dialog-confirm>.p-dialog-mask>.p-dialog .p-dialog-content {
+    background-color: #ffffff !important;
+    color: #333333 !important;
+    border: 1px solid #c8c8c8 !important;
+    padding: 0.5em 1em 1.5em 1em !important;
+}
+
+.dialog-confirm>.p-dialog-mask>.p-dialog .p-dialog-content {
+    background-color: var(--color-white) !important;
+    color: var(--color-black-light) !important;
+    padding: 0 1em !important;
+    border: none !important;
+    border-right: 1px solid var(--color-border) !important;
+    border-left: 1px solid var(--color-border) !important;
+    border-bottom: 1px solid var(--color-border) !important;
+    border-radius: 0px 0px 20px 20px !important;
+}
+
+.dialog-confirm>.p-dialog-mask>.p-dialog {
+    border-radius: 20px !important;
+}
+
+.contenido-apuesta {
+    background: var(--color-background) !important;
+    padding: 10px 0px !important;
+    border-radius: 9px !important;
+}
+
+.dialog-confirm>.p-dialog-mask>.p-dialog .p-dialog-header .p-dialog-header-icon {
+    color: var(--color-blue-dark) !important;
+    border: 0 none !important;
+    padding: 0 !important;
+    margin-left: 0.5em !important;
+    transition: color 0.2s, background-color 0.2s, box-shadow 0.2s !important;
+}
+
+
+.dialog-confirm .content-confirm {
+    text-align: center !important;
+    color: var(--color-blue-dark) !important;
+}
+
+
+/*BOTONES DIALOGS*/
+.btn-cancelar {
+    background-color: var(--color-white) !important;
+    font-size: var(--font-size-menu) !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    color: var(--color-red-text-info) !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.btn-cancelar:focus {
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.btn-aceptar {
+    border-radius: 25px !important;
+    box-shadow: 0px 3px 8px var(--color-border-transparent) !important;
+    background-color: var(--color-blue-dark) !important;
+    font-size: var(--font-size-lg) !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    width: 50% !important;
+    color: var(--color-white) !important;
+}
+.p-dialog .p-dialog-header{
+    background: #ffffff !important;
+    color: var(--color-blue-dark) !important;
+}

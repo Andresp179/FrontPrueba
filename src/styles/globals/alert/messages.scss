@@ -1,0 +1,30 @@
+.ui-messages.ui-messages-info{
+    background-color: var(--color-blue-dark) !important;
+    border: 0 none !important;
+    color: var(--color-white) !important;
+}
+.ui-messages.ui-messages-info .ui-messages-icon {
+    color: var(--color-white) !important;
+}
+
+.ui-messages.ui-messages-warn{
+    background-color: var(--color-red) !important;
+    border: 0 none !important;
+    color: var(--color-white) !important;
+}
+
+.ui-messages.ui-messages-warn .ui-messages-icon {
+    color: var(--color-white) !important;
+}
+
+
+.ui-messages.ui-messages-infolight{
+    background-color: var(--color-background-dark) !important;
+    border: 0 none !important;
+    color: var(--color-blue-dark) !important;
+    font-weight: 500;
+}
+
+.ui-messages.ui-messages-infolight .ui-messages-icon {
+    color: var(--color-blue-dark) !important;
+}

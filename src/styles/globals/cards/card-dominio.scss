@@ -1,0 +1,89 @@
+.card-productos-dinamicos,
+.card-productos-dinamicos__seleccionada {
+    position: relative;
+    width: 13.14rem;
+    height: 65px;
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: 15px;
+    display: inline-flex;
+    box-shadow: 0px 3px 6px var(--color-border);
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-productos-dinamicos__seleccionada {
+    background: var(--color-orange);
+}
+
+.card-productos-dinamicos__seleccionada:hover {
+    background:  var(--color-orange);
+}
+
+.card-productos-dinamicos:hover {
+    background: var(--color-white); 
+}
+
+.card-productos-dinamicos_icono {
+    position: absolute;
+    left: -1rem;
+    width: 4.55rem;
+    height: 4.55rem;
+    background: var(--color-white) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px var(--color-border);
+    border: 1px solid var(--color-border);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-productos-dinamicos_titulo  p{
+    font-size: var(--font-size-xl);
+    text-align: start;
+    margin: 0 0.5rem;
+    letter-spacing: 0px;
+    font-weight: 600;
+    margin-left: 5.25rem;
+}
+
+.card-productos-dinamicos_titulo{
+    width: inherit;
+}
+
+.card-productos-dinamicos__seleccionada .card-productos-dinamicos_titulo p{
+    color: var(--color-white);   
+}
+
+.card-productos-dinamicos .card-productos-dinamicos_titulo p{
+    color: var(--color-black-light);   
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .card-productos-dinamicos,
+    .card-productos-dinamicos__seleccionada {
+        width: 12.5rem;
+        height: 3.75rem;
+    }
+
+    .card-productos-dinamicos_icono {
+        left: -1rem;
+        width: 4rem;
+        height: 4rem;
+    }
+    .card-productos-dinamicos_titulo  p{ 
+        font-size: var(--font-size-lg);
+        margin: 0 0.5rem;
+        margin-left: 4rem;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .card-productos-dinamicos,
+    .card-productos-dinamicos__seleccionada {
+        width: 10rem;
+        height: 3.75rem;
+    }
+}

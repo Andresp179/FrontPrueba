@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'font-ptpt';
+    src:  url('./../../assets/fonts/font-ptpt.eot?mw9t44');
+    src:  url('./../../assets/fonts/font-ptpt.eot?mw9t44#iefix') format('embedded-opentype'),
+      url('./../../assets/fonts/font-ptpt.ttf?mw9t44') format('truetype'),
+      url('./../../assets/fonts/font-ptpt.woff?mw9t44') format('woff'),
+      url('./../../assets/fonts/font-ptpt.svg?mw9t44#font-ptpt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'font-ptpt' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-dollar:before {
+    content: "\e93c";
+  }
+  .icon-twists:before {
+    content: "\e93d";
+  }
+  .icon-angles-down:before {
+    content: "\e93b";
+    color: #7e7e7e;
+  }
+  .icon-angles-up:before {
+    content: "\e93a";
+  }
+  .icon-angles-right:before {
+    content: "\e939";
+  }
+  .icon-angles-left:before {
+    content: "\e938";
+  }
+  .icon-circle-exclamation:before {
+    content: "\e937";
+  }
+  .icon-xmark:before {
+    content: "\e936";
+  }
+  .icon-soat:before {
+    content: "\e919";
+  }
+  .icon-phone:before {
+    content: "\e91a";
+  }
+  .icon-virtual-lottery:before {
+    content: "\e91b";
+  }
+  .icon-movements:before {
+    content: "\e91c";
+  }
+  .icon-eye-slash:before {
+    content: "\e91d";
+  }
+  .icon-packet:before {
+    content: "\e91e";
+  }
+  .icon-triangle-exclamation:before {
+    content: "\e91f";
+  }
+  .icon-user:before {
+    content: "\e920";
+  }
+  .icon-plus:before {
+    content: "\e921";
+  }
+  .icon-search-plus:before {
+    content: "\e922";
+  }
+  .icon-search:before {
+    content: "\e923";
+  }
+  .icon-left-arrow-long:before {
+    content: "\e924";
+  }
+  .icon-circle-info:before {
+    content: "\e925";
+  }
+  .icon-document:before {
+    content: "\e926";
+  }
+  .icon-clipboard-list:before {
+    content: "\e927";
+  }
+  .icon-pencil:before {
+    content: "\e928";
+  }
+  .icon-circle-xmark-solid:before {
+    content: "\e929";
+  }
+  .icon-circle-check-solid:before {
+    content: "\e92a";
+  }
+  .icon-circle-check:before {
+    content: "\e92b";
+  }
+  .icon-check:before {
+    content: "\e92c";
+  }
+  .icon-one-calendar:before {
+    content: "\e92d";
+  }
+  .icon-check-active:before {
+    content: "\e92e";
+  }
+  .icon-reload:before {
+    content: "\e92f";
+  }
+  .icon-copy:before {
+    content: "\e930";
+  }
+  .icon-automatic:before {
+    content: "\e931";
+  }
+  .icon-random:before {
+    content: "\e932";
+  }
+  .icon-bets:before {
+    content: "\e933";
+  }
+  .icon-tombola:before {
+    content: "\e934";
+  }
+  .icon-ticket-bar:before {
+    content: "\e935";
+  }
+  .icon-bars:before {
+    content: "\e918";
+  }
+  .icon-4c:before {
+    content: "\e917";
+  }
+  .icon-cart-solid:before {
+    content: "\e914";
+  }
+  .icon-home-solid:before {
+    content: "\e915";
+  }
+  .icon-bar-chart:before {
+    content: "\e916";
+  }
+  .icon-3c:before {
+    content: "\e900";
+  }
+  .icon-5n:before {
+    content: "\e901";
+  }
+  .icon-calendar:before {
+    content: "\e902";
+  }
+  .icon-cart:before {
+    content: "\e903";
+  }
+  .icon-clean:before {
+    content: "\e904";
+  }
+  .icon-currency:before {
+    content: "\e905";
+  }
+  .icon-down-arrow:before {
+    content: "\e906";
+  }
+  .icon-group-list:before {
+    content: "\e907";
+  }
+  .icon-help:before {
+    content: "\e908";
+  }
+  .icon-home:before {
+    content: "\e909";
+  }
+  .icon-left-arrow:before {
+    content: "\e90a";
+  }
+  .icon-remove:before {
+    content: "\e90b";
+  }
+  .icon-results:before {
+    content: "\e90c";
+  }
+  .icon-right-arrow:before {
+    content: "\e90d";
+  }
+  .icon-set:before {
+    content: "\e90e";
+  }
+  .icon-shopping-cart:before {
+    content: "\e90f";
+  }
+  .icon-sing-off:before {
+    content: "\e910";
+  }
+  .icon-ticket:before {
+    content: "\e911";
+  }
+  .icon-trade:before {
+    content: "\e912";
+  }
+  .icon-up-arrow:before {
+    content: "\e913";
+  }
